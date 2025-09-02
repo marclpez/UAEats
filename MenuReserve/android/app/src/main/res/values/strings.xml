@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MenuReserve</string>
+    <string name="title_activity_main">MenuReserve</string>
+    <string name="package_name">com.menuReserve.app</string>
+    <string name="custom_url_scheme">com.menuReserve.app</string>
+</resources>
