@@ -17,6 +17,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Get restaurant by ID
   app.get("/api/restaurants/:id", async (req, res) => {
     try {
+      console.log("Entrando");
       const restaurant = await storage.getRestaurant(req.params.id);
       if (!restaurant) {
         return res.status(404).json({ message: "Restaurant not found" });
